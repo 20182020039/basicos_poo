@@ -6,6 +6,7 @@
 package Interfaz;
 
 import Logica.CapturaTeclado;
+import Logica.EjemploCiclo;
 import Logica.EjemploCondicional;
 
 /**
@@ -21,6 +22,9 @@ public class Principal {
         System.out.println("Ejemplo de condicional");
         EjemploCondicional ec = new EjemploCondicional();
         ec.operacion();
+        System.out.println("Ejemplo de cilos");
+        EjemploCiclo el = new EjemploCiclo();
+        el.operacion();
     }
     
 }
